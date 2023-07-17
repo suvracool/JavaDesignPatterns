@@ -11,7 +11,8 @@ public class Main {
         int i=0;
         for (Animal animal: animals){
 
-            System.out.print("Animal at Index " + i + " makes noise as " );
+            System.out.print("Animal at Index " + i + "is related to " + animal.getClass() + " makes noise as " );
+
             animal.makeNoise();
             System.out.println();
             i++;
