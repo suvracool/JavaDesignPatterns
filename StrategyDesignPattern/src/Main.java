@@ -13,6 +13,6 @@ public class Main {
         cart.pay(new PaypalStrategy("myemail@example.com", "mypwd"));
 
         //pay by credit card
-        cart.pay(new CreditCardStrategy("Pankaj Kumar", "1234567890123456", "786", "12/15"));
+        cart.pay(new CreditCardStrategy("Jacob matthews", "1234567890123456", "515", "01/25"));
     }
 }
